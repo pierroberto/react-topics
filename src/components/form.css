@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: lime;
+}
+
+.form {
+
+}
+
+.topic-bar {
+  margin: 20px 50px 0;
+
+
+}
