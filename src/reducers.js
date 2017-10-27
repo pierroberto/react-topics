@@ -2,9 +2,10 @@ import { combineReducers } from 'redux';
 
 
 // no change reducer for testing
-const movies = (state=null,action) => {
+const topics = (state=null,action) => {
   switch(action.type) {
-      case 'GET_MOVIES':
+      case 'GET_TOPICS':
+      console.log('reducer', this.state)
       break;
   }
 
@@ -15,7 +16,7 @@ const movies = (state=null,action) => {
 
 // Combining both reducers
 const reducers = combineReducers({
-  
+  topics
 });
 
 export default reducers;
