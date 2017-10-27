@@ -4,8 +4,8 @@ import './item-view.css';
    render () {
      return (
       <div className="container-topic">
-        
-        <h1>Hello</h1>
+
+        <div>{this.props.topic.message}</div>
       </div>
      )
    }
